@@ -56,7 +56,6 @@ body {
     max-width: 1024px;
     width: 100%;
     margin: 0rem auto;
-   
     background-color: #fff;
     /* padding: 1rem 1rem 0 1rem; */
     border: 1px solid #fff;
@@ -210,4 +209,21 @@ footer {
     color: #fff;
     text-align: center;
     bottom: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .body__container {
+        max-width: 480px;
+        padding: 1rem; 
+        width: 100%;
+        margin: 0rem auto;
+        background-color: #fff;
+        /* padding: 1rem 1rem 0 1rem; */
+        border: 1px solid #fff;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
